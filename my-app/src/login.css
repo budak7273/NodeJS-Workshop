@@ -1,0 +1,37 @@
+.Login {
+    width: 30%;
+    height: 30%;
+    margin: 2% 35%;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#submitButton {
+    margin: 10px;
+    padding: .5rem 2.4rem;
+    background: #EF6530;
+    color: #FFF;
+    border-radius: 2rem;
+    font-size: 1rem;
+    border: none;
+}
+.inputText {
+    margin: 20px;
+    margin-right: 0;
+    padding: 10px;
+}
+
+.inputText:hover {
+    background: #f1f1f1;
+    border: none;
+}
+
+.inputText:focus {
+    background: #f2f2f2;
+    border: none;
+}
