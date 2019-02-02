@@ -4,7 +4,7 @@ const express = require('express');
 //const bodyParser = require('body-parser');
 const mysql = require('mysql');
 
-const rateLimit = require('express-rate-limit');
+//const rateLimit = require('express-rate-limit');
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
